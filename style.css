@@ -1,0 +1,16 @@
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.left img{
+    width: 32px;
+    height: 25px;
+}
+.container{
+    padding: 0 10vw;
+    margin: auto;
+}
+nav ul li{
+     list-style: none; /* dot marks of li will removed */
+     padding: 0 12px;
+}
