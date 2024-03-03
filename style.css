@@ -1,16 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html , body{
+     margin: 0;
+    padding: 0; /*  On scrolling header nav will not move */
     height: 100%;
     width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white; /* these all three tags will stick the header */
+    height: 66px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
 }
 .left img{
     width: 32px;
-    height: 25px;
+    height: 28px;
 }
 .container{
     padding: 0 10vw;
-    margin: auto;
+}
+nav{
+    font-size: 12px;
 }
 nav ul li{
      list-style: none; /* dot marks of li will removed */
      padding: 0 12px;
 }
+.section-1{
+    background-color: #f2f2f2;
+    height: 122vh;
+  }
+  .search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid gray;
+    background: #f7f8fd;
+    border-radius: 5px;
+  }
